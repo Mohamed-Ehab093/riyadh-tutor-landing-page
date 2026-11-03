@@ -1,13 +1,13 @@
 @echo off
-chcp 65001 > nul
+title Pushing to GitHub
 echo ====================================================
-echo   جاري رفع المشروع إلى حساب GitHub: Mohamed-Ehab093
+echo   Pushing project to GitHub: Mohamed-Ehab093
 echo ====================================================
 echo.
 cd /d "%~dp0"
 git push -u origin main
 echo.
 echo ====================================================
-echo   تمت العملية! اضغط أي مفتاح للإغلاق...
+echo   Done!
 echo ====================================================
 pause
